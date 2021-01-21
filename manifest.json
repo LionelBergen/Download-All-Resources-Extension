@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	"version": "1.0",
+	"name": "Download All Resources",
+	"description": "Downloads all resources visited. For example visiting 'google.com' might download an 'index.html' page.",
+	"permissions": [
+		"<all_urls>","webRequest","webRequestBlocking"
+	],
+	"browser_action": { },
+	"icons": {
+		"16": "images/16_logo.png",
+		"48": "images/48_logo.png",
+		"128": "images/128_logo.png"
+	},
+	"background": {
+	    "scripts": ["scripts/otherscript.js"]
+	}
+}
