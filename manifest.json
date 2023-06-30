@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"version": "1.0",
 	"name": "Download All Resources",
-	"description": "Downloads all resources that are sent to the browser. E.G 'google.com' will have 'index.html', JS & CSS files. & Downloads files that are sent on the fly.",
+	"description": "Downloads all resources sent to the browser, on inital load and on fly. E.G 'google.com' has 'index.html', JS & CSS files.",
 	"permissions": [
 		"<all_urls>","webRequest","webRequestBlocking"
 	],
