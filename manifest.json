@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"version": "1.0",
 	"name": "Download All Resources",
-	"description": "Downloads all resources visited. For example visiting 'google.com' might download an 'index.html' page, along with JS and CSS files. Also downloads files that are sent on the fly.",
+	"description": "Downloads all resources that are sent to the browser. E.G 'google.com' will have 'index.html', JS & CSS files. & Downloads files that are sent on the fly.",
 	"permissions": [
 		"<all_urls>","webRequest","webRequestBlocking"
 	],
